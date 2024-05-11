@@ -1,7 +1,3 @@
-
-
-
-
 import logging
 import sqlite3
 from aiogram import Bot, Dispatcher, types
@@ -171,7 +167,7 @@ async def successeful_payment(message: types.Message):
 
     # Отправляем личное сообщение с информацией о платеже
     await bot.send_message(
-        "1921428012",  # Ваш Telegram ID
+        "6249622776",  # Ваш Telegram ID
         f"Прошла оплата:\n"
         f"id игрока: {user_id_game}\n"
         f"оплачено: yes\n"
